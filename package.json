@@ -57,10 +57,5 @@
     "unplugin-vue-components": "^0.25.1",
     "vite": "^4.4.5",
     "vite-plugin-style-import": "^2.0.0"
-  },
-  "lint-staged": {
-    "*.{vue,js}": "eslint --cache --fix",
-    "*.css": "stylelint --fix",
-    "*.js": "eslint --cache --fix"
   }
 }

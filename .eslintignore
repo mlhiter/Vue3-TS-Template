@@ -1,0 +1,5 @@
+/*.json
+dist
+**/*.svg
+**/*.ts
+/node_modules/**

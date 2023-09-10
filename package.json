@@ -1,0 +1,55 @@
+{
+  "name": "process-knowledge-front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint-staged": "lint-staged",
+    "eslint": "eslint --ext js,jsx,vue --fix",
+    "prettier": "prettier --write \"src/**/*.js\"",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "axios": "^1.4.0",
+    "element-plus": "2.3.7",
+    "lodash": "^4.17.21",
+    "unocss": "^0.55.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@iconify/json": "^2.2.111",
+    "@types/node": "^20.5.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.0",
+    "node": "^20.5.0",
+    "prettier": "^3.0.1",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-icons": "^0.16.5",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.4.5",
+    "vite-plugin-style-import": "^2.0.0"
+  },
+  "lint-staged": {
+    "*.{vue,js}": "eslint --cache --fix",
+    "*.css": "stylelint --fix",
+    "*.js": "eslint --cache --fix"
+  }
+}

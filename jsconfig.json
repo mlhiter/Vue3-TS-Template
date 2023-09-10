@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "module": "ESNext",
+    "target": "es6"
+  },
+  "exclude": ["dist"],
+  "include": ["src/**/*", "types/auto-imports.d.ts", "types/component.d.ts"]
+}

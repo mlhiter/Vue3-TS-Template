@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# NOTE:你项目文件里有报错是交不上去的
+pnpm run lint-staged

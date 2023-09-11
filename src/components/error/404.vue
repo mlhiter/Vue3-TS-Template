@@ -1,3 +1,7 @@
 <template>
-  <span>404 not found</span>
+  <div></div>
 </template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>

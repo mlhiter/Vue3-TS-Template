@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "ES2020",
     "module": "ES2020",
     "moduleResolution": "node",
@@ -8,13 +9,18 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types/", "./types/"],
     "paths": {
       "@/*": ["src/*"]
     },
     "lib": ["es2020", "dom"],
     "skipLibCheck": true
   },
-  "include": ["src/**/*", "src/**/*.vue","types/auto-imports.d.ts", "types/component.d.ts"],
-  "exclude": ["node_modules","dist"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "types/auto-imports.d.ts",
+    "types/component.d.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
 }

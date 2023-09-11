@@ -1,7 +1,7 @@
-<script setup></script>
-
 <template>
-  <RouterView />
+  <div>我是app.vue</div>
 </template>
+
+<script setup lang="ts"></script>
 
 <style scoped></style>

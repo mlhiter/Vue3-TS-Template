@@ -1,4 +1,268 @@
 {
   "cSpell.words": ["plusplus"],
-  "typescript.tsdk": "node_modules\\typescript\\lib"
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  // 本人的系统设置
+  // System
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.commandPalette.experimental.suggestCommands": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Brackets Light Pro Bold",
+  "workbench.editor.enablePreview": false,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.confirmDelete": false,
+  "explorer.sortOrder": "type",
+  "search.smartCase": true,
+  "search.followSymlinks": false,
+  "window.zoomLevel": 0.5,
+  "window.commandCenter": true,
+  "window.menuBarVisibility": "compact",
+  "window.autoDetectColorScheme": false,
+  "files.eol": "\n",
+  "files.autoGuessEncoding": true,
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    "*.env.*": "dotenv",
+    "*.css": "tailwindcss"
+  },
+
+  // Editor
+  "editor.tabSize": 2,
+  "editor.fontSize": 18,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontVariations": false,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.inlayHints.padding": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.suggest.showWords": false,
+  "editor.wordWrap": "on",
+  "editor.tabCompletion": "on",
+  "editor.codeLensFontSize": 18,
+  "editor.guides.bracketPairs": true,
+  "editor.detectIndentation": false,
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToImplementation",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.foldingImportsByDefault": false,
+  "editor.formatOnPaste": true,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.suggestSelection": "recentlyUsed",
+  "editor.stickyScroll.enabled": false,
+  "editor.inlayHints.enabled": "onUnlessPressed",
+
+  // DiffEditor
+  "diffEditor.codeLens": true,
+  "diffEditor.experimental.showMoves": true,
+  "diffEditor.experimental.useVersion2": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // Git
+  "git.path": "C:/Git/Git/bin/git.exe",
+  "git.suggestSmartCommit": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // JS/TS
+  // NOTE:Volar接管模式开启之后设置里关于ts/js的配置会消失（只是不显示了），想要在设置里修改需要把@buildin禁用的JS/TS插件重新启用
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferGoToSourceDefinition": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "javascript.suggest.paths": false,
+  "typescript.suggest.paths": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.npm": "C:\\Users\\30764\\AppData\\Roaming\\npm",
+  "typescript.preferGoToSourceDefinition": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "js/ts.implicitProjectConfig.checkJs": true,
+
+  // Extension
+  // LiverServer
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  // ESlint
+  "eslint.quiet": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  "eslint.run": "onSave",
+  "eslint.options": {
+    "extensions": [".js", ".vue", ".ts", ".jsx", "tsx"]
+  },
+  // Prettier
+  "prettier.bracketSameLine": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  // Volar
+
+  "vue.inlayHints.inlineHandlerLeading": true,
+  "vue.inlayHints.missingProps": true,
+  "vue.inlayHints.optionsWrapper": true,
+  "vue.splitEditors.layout.left": ["template", "customBlocks"],
+  "vue.splitEditors.layout.right": ["styles", "script", "scriptSetup"],
+  "vue.updateImportsOnFileMove.enabled": true,
+  "vue.autoInsert.dotValue": true,
+  "vue.splitEditors.icon": true,
+  // Comment Translate
+  "commentTranslate.hover.string": true,
+  "commentTranslate.hover.variable": true,
+  "commentTranslate.multiLineMerge": true,
+  "editor.minimap.enabled": false,
+  "commentTranslate.targetLanguage": "zh-CN",
+  // Todo Tree
+  // 参考资料：https://blog.csdn.net/HHB791829200/article/details/128407652
+  "todo-tree.regex.regex": "((%|#|//|<!--|^\\s*\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
+  "todo-tree.general.tags": ["PERF", "BUG", "FIXME", "TODO", "NOTE"],
+  "todo-tree.regex.regexCaseSensitive": false,
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "#2f3542",
+    "icon": "check",
+    "rulerColour": "#f1c40f",
+    "type": "text",
+    "opacity": 0.7,
+    "iconColour": "#f1c40f",
+    "gutterIcon": true
+  },
+  "todo-tree.highlights.customHighlight": {
+    //todo  需要做的功能
+    "TODO": {
+      "icon": "goal",
+      "background": "#c9c552",
+      "rulerColour": "#c9c552",
+      "iconColour": "#c9c552"
+    },
+    //bug		必须要修复的BUG
+    "BUG": {
+      "background": "#eb5c5c",
+      "icon": "bug",
+      "rulerColour": "#eb5c5c",
+      "iconColour": "#eb5c5c"
+    },
+    //fixme		需要修复的问题，不是bug的那种
+    "FIXME": {
+      "background": "#e94732",
+      "icon": "tools",
+      "rulerColour": "#e94732",
+      "iconColour": "#e94732"
+    },
+    //perf 需要优化的功能或者样式
+    "PERF": {
+      "background": "#38b2f4",
+      "icon": "cpu",
+      "rulerColour": "#38b2f4",
+      "iconColour": "#38b2f4",
+      "rulerLane": "full"
+    },
+    //note 需要记录的注意的地方
+    "NOTE": {
+      "background": "#5eec95",
+      "icon": "note",
+      "rulerColour": "#5eec95",
+      "iconColour": "#5eec95"
+    }
+  },
+  "todo-tree.filtering.ignoreGitSubmodules": true,
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.general.statusBar": "current file",
+  "todo-tree.general.showActivityBarBadge": true,
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+  // Where am I
+  "where-am-i.color": "black",
+  // i18n Allay
+  "i18n-ally.displayLanguage": "zh-CN",
+  "i18n-ally.sourceLanguage": "zh-CN",
+  "i18n-ally.dirStructure": "auto",
+  "i18n-ally.enabledFrameworks": ["vue"],
+  "i18n-ally.enabledParsers": ["js", "ts", "json"],
+  "i18n-ally.extract.autoDetect": true,
+  "i18n-ally.extract.targetPickingStrategy": "most-similar",
+  "i18n-ally.keystyle": "auto",
+  "i18n-ally.localesPaths": "src/views/**/locale",
+  "i18n-ally.pathMatcher": "*.ts",
+  // Svelte
+  "svelte.enable-ts-plugin": true,
+  // Document This
+  "docthis.includeDescriptionTag": true,
+  // Auto Import
+  "autoimport.filesToScan": "**/*.{ts,tsx,js,jsx}",
+  // Error Lens
+  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
+  // Material Icon Theme
+  "material-icon-theme.activeIconPack": "vue_vuex",
+  // UnoCSS
+  "unocss.remToPxPreview": true,
+  // WindiCSS IntelliSense
+  "windicss.enableEmmetCompletion": true,
+  // CodeGeeX
+  "Codegeex.Privacy": false,
+  "Codegeex.EnableExtension": false,
+  // Code Spell checker
+  "cSpell.diagnosticLevel": "Information",
+  "cSpell.ignoreWords": [
+    "axios",
+    "vueuse",
+    "attributify",
+    "tabnine",
+    "vetur",
+    "esbenp",
+    "antv",
+    "commitlint",
+    "Pinia",
+    "nuxt",
+    "vuex"
+  ],
+  "cSpell.userWords": [
+    "afterdelay",
+    "Antd",
+    "autofetch",
+    "autoimport",
+    "buildin",
+    "cnblog",
+    "Codegeex",
+    "Colour",
+    "docthis",
+    "donot",
+    "echarts",
+    "iconify",
+    "keystyle",
+    "liverserver",
+    "mlhiter",
+    "organisation",
+    "pathe",
+    "ruoyi",
+    "sider",
+    "specity",
+    "stylelint",
+    "tailwindcss",
+    "unocss",
+    "unplugin",
+    "vicons",
+    "Vite",
+    "Windi",
+    "windicss"
+  ],
+  "cSpell.showAutocompleteSuggestions": true
 }

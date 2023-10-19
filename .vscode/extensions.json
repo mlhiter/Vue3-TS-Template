@@ -8,6 +8,11 @@
     "gruntfuggly.todo-tree",
     "vue.vscode-typescript-vue-plugin",
     "antfu.unocss",
-    "vue.volar"
+    "vue.volar",
+    "zixuanchen.vitest-explorer",
+    "aminer.codegeex",
+    "vinliao.fast-arrow",
+    "pkief.material-icon-theme",
+    "forestxie.naive-ui-helper"
   ]
 }

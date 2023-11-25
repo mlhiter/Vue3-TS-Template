@@ -43,70 +43,70 @@
 
 ### 三，项目结构
 
-.github：github配置ci/cd
-.husky：git钩子机制执行一些命令
-.vscode：vscode配置文件，包括设置和推荐的extension
-node_modules：项目依赖包
-public：公共组件，一般我会把项目的ico放在这
+- .github：github配置ci/cd
 
-src ：项目源码文件夹
+- .husky：git钩子机制执行一些命令
 
-- src/api ：api请求
+- .vscode：vscode配置文件，包括设置和推荐的extension
 
-- src/assets ：静态内容，包括字体和组件
+- node_modules：项目依赖包
 
+- public：公共组件，一般我会把项目的ico放在这
 
-- src/components：全局组件
-- src/hooks：有状态工具函数组件文件夹（全局）
+- src ：项目源码文件夹
 
+  - api ：api请求
 
-- src/layout：布局文件夹，如侧边栏和标题栏组件这种基本一直在的组件
-- src/locales：国际化文件夹，处理语言文字替换
-- src/plugin：插件文件夹
+  - sassets ：静态内容，包括字体和组件
 
+  - scomponents：全局组件
 
-- src/router：路由文件夹
+  - hooks：有状态工具函数组件文件夹（全局）
 
+  - layout：布局文件夹，如侧边栏和标题栏组件这种基本一直在的组件
 
-- src/style：全局样式文件夹
-- src/store：全局状态管理文件夹
+  - locales：国际化文件夹，处理语言文字替换
 
+  - plugin：插件文件夹
 
-- src/utils：无状态工具函数文件夹
+  - router：路由文件夹
 
+  - style：全局样式文件夹
 
-- src/views：页面组件文件夹
+  - store：全局状态管理文件夹
 
+  - utils：无状态工具函数文件夹
 
-- src/main.js：入口js文件
+  - views：页面组件文件夹
 
+  - main.ts：入口js文件
 
-- src/App.vue：入口vue文件
+  - App.vue：入口vue文件
 
-test：测试文件夹
-types：全局类型文件夹，放unplugin组件的生命types
-.env.development：开发模式环境变量
-.env.production：生产模式环境变量
-.eslintignore：ESLint忽略文件
-.eslintrc-auto-import.json：处理ESLint报错自动引入工具的文件
-.eslintrc.json：ESLint配置文件
-.gitignore：git忽略文件
-.lintstagedrc：git钩子执行检查文件状态的配置文件
-.nvmrc：node版本限制文件
-.prettierignore：prettier忽略文件
-.prettierrc.json：prettier配置文件
-.stylelintignore：stylelint忽略文件
-.stylelintrc.json：stylelint配置文件
-commitlint.config.ts：git commit信息检测配置文件
-index.html：项目入口html文件
-nginx.conf：nginx配置文件
-package.json：项目配置文件
-pnpm-lock.yaml：项目依赖关系文件
-readme.md：项目的文档
-tsconfig.json：typescript的配置文件
-uno.config.ts：uno的配置文件
-vite.config.ts：vite的配置文件
+- test：测试文件夹
+- types：全局类型文件夹，放unplugin组件的生命types
+- .env.development：开发模式环境变量
+- .env.production：生产模式环境变量
+- .eslintignore：ESLint忽略文件
+- .eslintrc-auto-import.json：处理ESLint报错自动引入工具的文件
+- .eslintrc.json：ESLint配置文件
+- .gitignore：git忽略文件
+- .lintstagedrc：git钩子执行检查文件状态的配置文件
+- .nvmrc：node版本限制文件
+- .prettierignore：prettier忽略文件
+- .prettierrc.json：prettier配置文件
+- .stylelintignore：stylelint忽略文件
+- .stylelintrc.json：stylelint配置文件
+- commitlint.config.ts：git commit信息检测配置文件
+- index.html：项目入口html文件
+- nginx.conf：nginx配置文件
+- package.json：项目配置文件
+- pnpm-lock.yaml：项目依赖关系文件
+- readme.md：项目的文档
+- tsconfig.json：typescript的配置文件
+- uno.config.ts：uno的配置文件
+- vite.config.ts：vite的配置文件
 
-### # 注意事项
+### 注意事项
 
 1. 更改服务器地址：在src/utils/request.js 里修改baseUrl
